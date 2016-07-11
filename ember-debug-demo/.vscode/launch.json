@@ -9,7 +9,7 @@
         "webRoot": "${workspaceRoot}/app",
         "diagnosticLogging": true,
         "sourceMapPathOverrides": {
-            "ember-debug-demo/*": "${workspaceRoot}/app/*"
+            "ember-debug-demo/*": "${workspaceRoot}/app/*" //ember-debug-demo is the project name i.e the name of the file generated in dist\assets\<Project Name>.js
         }
     }, {
         "name": "Attach to Chrome, with sourcemaps",
@@ -20,7 +20,7 @@
         "webRoot": "${workspaceRoot}/app",
         "diagnosticLogging": true,
         "sourceMapPathOverrides": {
-            "ember-debug-demo/*": "${workspaceRoot}/app/*"
+            "ember-debug-demo/*": "${workspaceRoot}/app/*" //ember-debug-demo is the project name i.e the name of the file generated in dist\assets\<Project Name>.js
         }
     }]
 }
